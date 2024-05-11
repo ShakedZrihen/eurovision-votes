@@ -27,7 +27,7 @@ export const StyledButton = styled(Button)({
   marginBottom: "1rem"
 });
 
-export const BingoButton = styled(StyledButton)({
+export const SummaryButton = styled(StyledButton)({
   backgroundColor: "#23ffd6",
   color: "#05025e"
 });

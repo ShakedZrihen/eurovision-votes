@@ -1,13 +1,12 @@
 import "./App.css";
-import { BetsButton, BingoButton, PageContainer, StyledActionsContainer, StyledTitle } from "./App.style";
+import { BetsButton, SummaryButton, PageContainer, StyledActionsContainer, StyledTitle } from "./App.style";
 import { useState } from "react";
 import BetsPage from "../Bets";
-import BingoPage from "../Bingo";
-
+import SummaryPage from "../Summary";
 
 function App() {
   const [page, setPage] = useState("Bets");
-  const SelectedPage = page === "Bets" ? BetsPage : BingoPage;
+  const SelectedPage = page === "Bets" ? BetsPage : SummaryPage;
   return (
     <>
       <PageContainer>
@@ -17,11 +16,11 @@ function App() {
         <SelectedPage />
         <StyledActionsContainer>
           <BetsButton variant="contained" onClick={() => setPage("Bets")}>
-            Join Bets
+            Bets
           </BetsButton>
-          <BingoButton variant="contained" onClick={() => setPage("Bingo")}>
-            Join Bingo
-          </BingoButton>
+          <SummaryButton variant="contained" onClick={() => setPage("Summary")}>
+            Bets Summary
+          </SummaryButton>
         </StyledActionsContainer>
       </PageContainer>
     </>
