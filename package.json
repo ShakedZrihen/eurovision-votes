@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ShakedZrihen.github.io/eurovision-votes",
+  "homepage": "https://shakedzrihen.github.io/eurovision-votes",
 
   "scripts": {
     "dev": "vite",
