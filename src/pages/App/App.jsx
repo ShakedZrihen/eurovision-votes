@@ -1,14 +1,9 @@
-import { styled } from "@mui/material";
 import "./App.css";
 import { BetsButton, BingoButton, PageContainer, StyledActionsContainer, StyledTitle } from "./App.style";
 import { useState } from "react";
 import BetsPage from "../Bets";
 import BingoPage from "../Bingo";
 
-const StyledContentContainer = styled("div")({
-  height: "55vh",
-  backgroundColor: "#fff"
-});
 
 function App() {
   const [page, setPage] = useState("Bets");
