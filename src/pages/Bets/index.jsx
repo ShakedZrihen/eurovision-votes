@@ -4,7 +4,7 @@ import { CountryDescription } from "./components/CountryDescription";
 import SONG_BY_COUNTRY from "./songList";
 
 const StyledContentContainer = styled("div")({
-  height: "55vh",
+  height: "50vh",
   backgroundColor: "#fff"
 });
 
@@ -22,7 +22,6 @@ const updateLocalStorage = (newValue) => {
 const BetsPage = () => {
   const [countryIndex, setCountry] = useState(0);
   const [userInfo, setUserInfo] = useState(getFromLocalStorage());
-  console.log(userInfo);
   const updateUserInfo = (notes, rating) => {
     setUserInfo((prev) => {
       const updated = [...prev];

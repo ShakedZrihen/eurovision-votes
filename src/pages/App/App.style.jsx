@@ -6,6 +6,7 @@ export const StyledTitle = styled("p")({
   fontWeight: "bold",
   fontSize: "large",
   margin: 0,
+  height: '6vh',
   "& span": {
     fontWeight: "bolder",
     backgroundColor: "#9C27B0",
@@ -17,7 +18,7 @@ export const PageContainer = styled("div")({
   display: "flex",
   flexDirection: "column",
   justifyContent: "space-between",
-  height: "100%"
+  height: "85vh"
 });
 
 export const StyledButton = styled(Button)({
@@ -39,4 +40,5 @@ export const BetsButton = styled(StyledButton)({
 export const StyledActionsContainer = styled("div")({
   display: "flex",
   flexDirection: "column",
+  height: '20vh',
 });
