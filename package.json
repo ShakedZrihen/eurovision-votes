@@ -1,6 +1,6 @@
 {
   "name": "eurovotes",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://shakedzrihen.github.io/eurovision-votes",
